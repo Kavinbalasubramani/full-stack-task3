@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 20px;
+}
+
+.container {
+  max-width: 350px;
+  margin: auto;
+  
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+  overflow: hidden;
+  background-position: left;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tag {
+  background: blue;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 20px;
+  
+}
+
+
+.title {
+  font-size: 35px;
+  margin: 15px 0;
+  font-weight: bolder;
+  line-height: 40px;
+}
+
+.subtitle {
+  color: black;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.rate{
+  color: gray;
+  font-size: 15px;
+}
+.st{
+  color: black;
+}
+
+.trust {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.kk{
+  font-weight:bold;
+}
+
+.trust-box {
+  background: black;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+
+
+.play-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.play-box {
+  width: 70%;
+  height: 160px;
+  background: linear-gradient(45deg, blue, purple, orange);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-button {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 18px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.percent-box {
+  width: 20%;
+  position: relative;
+}
+
+.percent {
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.top {
+  background: blue;
+  height: 150px;
+  border-radius: 10px;
+  top: -10px;
+  
+}
+
+.bottom {
+  background: black;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  width: 70px;
+  top: 90px;
+}
+
+.btn-outline, .btn-solid {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-outline {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.btn-solid {
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-screen {
+    padding: 10px;
+  }
+}
